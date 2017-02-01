@@ -14,6 +14,7 @@
 		5130C7E41E419DEF006596BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5130C7E21E419DEF006596BB /* LaunchScreen.storyboard */; };
 		5130C7EF1E419DF0006596BB /* TestMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130C7EE1E419DF0006596BB /* TestMapTests.swift */; };
 		5130C7FA1E419DF0006596BB /* TestMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5130C7F91E419DF0006596BB /* TestMapUITests.swift */; };
+		5130C8091E41A717006596BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5130C8081E41A717006596BB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5130C7F51E419DF0006596BB /* TestMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5130C7F91E419DF0006596BB /* TestMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMapUITests.swift; sourceTree = "<group>"; };
 		5130C7FB1E419DF0006596BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5130C8081E41A717006596BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5130C8091E41A717006596BB /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				5130C7ED1E419DF0006596BB /* TestMapTests */,
 				5130C7F81E419DF0006596BB /* TestMapUITests */,
 				5130C7D71E419DEF006596BB /* Products */,
+				5130C8071E41A717006596BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				5130C7FB1E419DF0006596BB /* Info.plist */,
 			);
 			path = TestMapUITests;
+			sourceTree = "<group>";
+		};
+		5130C8071E41A717006596BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5130C8081E41A717006596BB /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					5130C7D51E419DEF006596BB = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QQLPZRZ2LG;
 						ProvisioningStyle = Automatic;
 					};
 					5130C7E91E419DF0006596BB = {
@@ -410,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQLPZRZ2LG;
 				INFOPLIST_FILE = TestMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ronald.TestMap;
@@ -422,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQLPZRZ2LG;
 				INFOPLIST_FILE = TestMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ronald.TestMap;
